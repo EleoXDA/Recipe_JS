@@ -81,3 +81,10 @@ nav a:hover {
   grid-gap: 0px;
   padding: 0px;
 }
+
+/* A media query to adjust the grid for wider screens */
+@media (min-width: 1200px) {
+  .recipe-container {
+      grid-template-columns: repeat(6, 1fr);
+  }
+}
