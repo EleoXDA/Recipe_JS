@@ -99,3 +99,15 @@ nav a:hover {
   color: #fc0;  /* Color when hovered or clicked */
 }
 
+.favorite {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.favorite.favorited {
+  background-color: #fc0;
+}
+
+
