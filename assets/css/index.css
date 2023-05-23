@@ -88,3 +88,14 @@ nav a:hover {
       grid-template-columns: repeat(6, 1fr);
   }
 }
+
+.star {
+  cursor: pointer;
+  color: #ccc;  /* Default star color */
+}
+
+.star:hover,
+.star.hover {
+  color: #fc0;  /* Color when hovered or clicked */
+}
+
