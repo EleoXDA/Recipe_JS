@@ -18,7 +18,7 @@
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-.recipe-card img {
+.recipe-card img #carousel-image {
   max-width: 100%;
   height: 300px;
   border-radius: 5px;
