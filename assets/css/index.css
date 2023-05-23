@@ -4,6 +4,49 @@ body {
     padding: 0;
 }
 
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.recipe-description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.view-recipe-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.view-recipe-link:hover {
+    background-color: #0056b3;
+}
+
 header, footer {
     background-color: #f8f9fa;
     color: #343a40;
