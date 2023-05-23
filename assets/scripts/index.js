@@ -9,6 +9,10 @@ searchForm.addEventListener('submit', function(event) {
 
   // Get the search term
   const searchTerm = searchInput.value;
+  
+  if (searchTerm.length === 0) {
+    alert("Please enter a search term.");
+    return;
 
   // Log the search term to the console
   console.log(`Searching for recipes related to "${searchTerm}"...`);
