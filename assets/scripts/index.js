@@ -21,6 +21,31 @@ setInterval(() => {
   currentRecipe = (currentRecipe + 1) % recipes.length;
 }, 3000);
 
+let stars = document.querySelectorAll('.star');
+
+stars.forEach(star => {
+  star.addEventListener('mouseover', () => {
+    let value = star.dataset.value;
+    for (let i = 0; i < value; i++) {
+      stars[i].classList.add('hover');
+    }
+    for (let i = value; i < stars.length; i++) {
+      stars[i].classList.remove('hover');
+    }
+  });
+
+  star.addEventListener('mouseout', () => {
+    stars.forEach(star => star.classList.remove('hover'));
+  });
+
+  star.addEventListener('click', () => {
+    let value = star.dataset.value;
+    // ...handle the rating click event...
+    console.log(`User rated this recipe as ${value}`);
+  });
+});
+
+
 // Select the search form and the search input field
 const searchForm = document.querySelector('form');
 const searchInput = document.querySelector('#recipe-search');
