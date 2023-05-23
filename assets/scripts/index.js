@@ -45,6 +45,21 @@ stars.forEach(star => {
   });
 });
 
+let favoriteButtons = document.querySelectorAll('.favorite');
+
+favoriteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    button.classList.toggle('favorited');
+    let favorited = button.classList.contains('favorited');
+    if (favorited) {
+      // ...add to favorites...
+      console.log('Recipe added to favorites');
+    } else {
+      // ...remove from favorites...
+      console.log('Recipe removed from favorites');
+    }
+  });
+});
 
 // Select the search form and the search input field
 const searchForm = document.querySelector('form');
