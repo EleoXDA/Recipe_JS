@@ -48,17 +48,28 @@ body {
 }
 
 header, footer {
-    background-color: #f8f9fa;
-    color: #343a40;
-    padding: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1, footer p {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav a {
-    margin-right: 10px;
+    color: #ffffff;
     text-decoration: none;
-    color: #343a40;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
+
