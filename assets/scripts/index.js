@@ -116,6 +116,7 @@ searchForm.addEventListener('submit', function(event) {
   if (searchTerm.length === 0) {
     alert("Please enter a search term.");
     return;
+  };
 
   // Log the search term to the console
   console.log(`Searching for recipes related to "${searchTerm}"...`);
