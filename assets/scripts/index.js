@@ -9,6 +9,46 @@ let recipes = [
     image: '../images/food01.jpg',
     description: 'This is recipe 2'
   },
+   {
+    title: 'Recipe 3',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 3'
+  },
+  {
+    title: 'Recipe 4',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 4'
+  },
+  {
+    title: 'Recipe 5',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 5'
+  },
+  {
+    title: 'Recipe 6',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 6'
+  },
+  {
+    title: 'Recipe 7',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 7'
+  },
+  {
+    title: 'Recipe 8',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 8'
+  },
+  {
+    title: 'Recipe 9',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 9'
+  },
+  {
+    title: 'Recipe 10',
+    image: '../images/food01.jpg',
+    description: 'This is recipe 10'
+  },
 ];
 
 let currentRecipe = 0;
