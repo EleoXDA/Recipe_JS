@@ -1,12 +1,12 @@
 let recipes = [
   {
     title: 'Recipe 1',
-    image: '../images.Food01.jpg',
+    image: '../images/food01.jpg',
     description: 'This is recipe 1'
   },
   {
     title: 'Recipe 2',
-    image: '../images.Food01.jpg',
+    image: '../images/food01.jpg',
     description: 'This is recipe 2'
   },
 ];
