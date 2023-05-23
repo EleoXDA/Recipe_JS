@@ -1,27 +1,27 @@
 let recipes = [
   {
     title: 'Recipe 1',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 1'
   },
   {
     title: 'Recipe 2',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 2'
   },
    {
     title: 'Recipe 3',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 3'
   },
   {
     title: 'Recipe 4',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 4'
   },
   {
     title: 'Recipe 5',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 5'
   },
   {
@@ -31,22 +31,22 @@ let recipes = [
   },
   {
     title: 'Recipe 7',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 7'
   },
   {
     title: 'Recipe 8',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 8'
   },
   {
     title: 'Recipe 9',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 9'
   },
   {
     title: 'Recipe 10',
-    image: '../assets/images/food01.jpg',
+    image: 'assets/images/food01.jpg',
     description: 'This is recipe 10'
   },
 ];
