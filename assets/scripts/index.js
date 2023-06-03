@@ -89,6 +89,7 @@ setInterval(() => {
 // Handle star ratings
 let stars = document.querySelectorAll('.star');
 stars.forEach((star, index) => {
+
   // When the mouse is over a star, highlight all stars up to and including that one
   star.addEventListener('mouseover', () => {
     let value = star.dataset.value;
@@ -122,6 +123,7 @@ stars.forEach((star, index) => {
 
 // Handle favorites
 let favoriteButtons = document.querySelectorAll('.favorite');
+
 favoriteButtons.forEach((button) => {
   button.addEventListener('click', () => {
     // Toggle the 'favorited' class
@@ -132,6 +134,7 @@ favoriteButtons.forEach((button) => {
     recipes[currentRecipe].favorited = favorited;
     // Save the recipes to local storage
     localStorage.setItem('recipes', JSON.stringify(recipes));
+
     if (favorited) {
       console.log('Recipe added to favorites');
     } else {
